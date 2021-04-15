@@ -95,7 +95,7 @@ ul {
 } 
 
 .icon-email {
-  color: currentColor;
+  fill: currentColor;
   margin-right: 10px;
 
 }
@@ -109,7 +109,7 @@ ul {
 }
 
 .icon-telephone {
-  color: currentColor;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -281,8 +281,11 @@ ul {
 
 /* main section */
 .section {
+  width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 
   background-image: linear-gradient(
@@ -432,11 +435,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 106px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 170px;
+  height: 90px;
   fill: var(--icon-color);
 
   border-radius: 4px;
@@ -449,8 +449,8 @@ ul {
   border-radius: 4px;
 }
 
-.icon-clients:hover,
-.icon-clients:focus {
+.icon-regular-clients:hover,
+.icon-regular-clients:focus {
   border: 2px solid var(--accent-link-color);
 }
 
@@ -647,6 +647,7 @@ button {
 .welcom-list {
   display: block;
   width: 206px;
+  margin-top: 12px;
 }
 
 .welcom-page {
