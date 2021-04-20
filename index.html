@@ -21,7 +21,7 @@
     <nav class="list">
       <a class="logo" href="./index.html">Web<span class="logo-studio-black">Studio</span></a>
         <ul class="list-nav flex">
-          <li class="item-nav"><a class="current" href="./portfolio.html">Студия</a></li>
+          <li class="item-nav"><a class="current" href="./portfolio.html" class="link">Студия</a></li>
           <li class="item-nav"><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li class="item-nav"><a href="" class="link">Контакты</a></li>
         </ul>
@@ -55,6 +55,7 @@
 				<button class="section-button" type="button" >Заказать услугу</button>
       </div>
     </section>
+    
     <!--Вторая секция. Наши особености-->
     <section class="main-section">    
       <div class="container">
@@ -390,11 +391,20 @@
             </div>
             <div>
               
-            </div>
-          
-
-      </div>
+          </div>
+        </div>
     </footer>
+    <button data-modal-open>Заказать услугу</button>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <p>
+
+        </p>
+        <button data-modal-close>Закрыть</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
