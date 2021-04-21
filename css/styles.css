@@ -670,11 +670,13 @@ button {
 
 .container .footer-list {
   display: inline-block;
-  width: calc((100%-70px*3)/4);
+  width: calc((50%-45px)/2);
   background-color: rgb(136, 136, 108);
+
 }
 
-.footer-color {
+
+.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--bg-color-section);
