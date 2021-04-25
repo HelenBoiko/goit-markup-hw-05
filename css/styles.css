@@ -124,7 +124,7 @@ ul {
    background: #2196F3;
    border-radius: 2px;
 
-   transition: backgraund 250ms var(--animation);
+   transition: background 250ms var(--animation);
 }
 
 .list-nav {
@@ -610,7 +610,7 @@ button {
   padding: 6px 22px;
   border: none;
   border-radius: 6px;
-  transition: bacgraun-color 250ms  var(--animation);
+  transition: bacgraun-color, color 250ms  var(--animation);
 }
 
 .list-button .item-button {
