@@ -124,12 +124,8 @@ ul {
    background: #2196F3;
    border-radius: 2px;
 
-   
    transition: backgraund 250ms var(--animation);
 }
-
-
-
 
 .list-nav {
   display: flex;
@@ -349,11 +345,6 @@ ul {
   color: var(--bg-color);
 }
 
-
-
-
-
-
 .main-section {
   font-size: 14px;
 	line-height: 1.71;
@@ -454,11 +445,11 @@ ul {
   fill: var(--icon-color);
 
 }
-/*  */
+
 .icon.foot {
   fill: var(--bg-color);
 }
-/**/
+
 .welcom-list .icon-social-link {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -498,7 +489,7 @@ ul {
   fill: var(--icon-color);
   border: 2px solid var(--icon-color);
   border-radius: 4px;
-  transition: fill, border 250ms var(--animation);
+  transition: fill 250ms var(--animation);
 }
 
 .icon-clients {
@@ -619,7 +610,7 @@ button {
   padding: 6px 22px;
   border: none;
   border-radius: 6px;
-  transition: bacgraun-color, border-radius 250ms  var(--animation);
+  transition: bacgraun-color 250ms  var(--animation);
 }
 
 .list-button .item-button {
