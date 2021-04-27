@@ -302,6 +302,7 @@ p
   letter-spacing: 0.02em;
   text-decoration-line: none;
   color: var(--main-text-color);
+  transition: collor 250ms var(--animation);
 }
 
 .contact-nav .link {
@@ -794,6 +795,7 @@ button {
   margin-left: auto;
   margin-right: auto;
 	margin-bottom: 50px;
+  margin-top: 0;
   padding-left: 0;
   
   list-style: none;
@@ -863,6 +865,7 @@ button {
 .icon-portfolio {
   display: block;
   text-decoration: none;
+  transition: box-shadow 250ms var(--animation)
 }
 
 
